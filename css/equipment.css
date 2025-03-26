@@ -1,0 +1,27 @@
+table.equipmentTable{
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    font-size: 20px;
+    align-content: center;
+}
+
+ table.equipmentTable th, table.equipmentTable td {
+    padding: 10px;
+    border-style:solid;
+    border-color: black;
+}
+table.equipmentTable th:nth-child(odd), table.equipmentTable td:nth-child(odd){
+    background-color: rgb(134, 110, 83);
+    color: white;
+}
+
+table.equipmentTable th {
+    font-size: 1em;
+}
+
+table.equipmentTable th.TitleOfTable{
+    background-color: rgb(254, 218, 180);
+    color: black;
+    font-size: 2em;
+}

@@ -1,0 +1,98 @@
+html {
+    font-family: "courier new";
+    margin: 50px;
+}
+
+#polyhedralDiceSalesMan{
+    font-size:.65em;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#navFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+#navFlex a {
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    border-color: white;
+    border-style: solid;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-decoration: none;
+    padding: 1em 1em;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#logoBanner {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#logoFigure{
+    width: 90vw;
+    align-self: center;
+}
+
+#navFlex a.current {
+    background-color: rgb(202, 48, 17);
+    color: black;
+    border-color: black;
+}
+
+#navFlex a:hover {
+    background-color: rgb(202, 48, 17);
+    color: black;
+    border-color: black;
+}
+
+article:first-letter{
+    font-size: 3em;
+    color: red;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+article {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(254, 218, 180);
+}
+
+footer img {
+    align-items: right;
+}
+
+footer {
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    color: white;
+}

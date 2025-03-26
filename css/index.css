@@ -1,0 +1,51 @@
+.arial{
+    font-family: "arial";
+    font-size: 60px;
+    text-align: center;
+}
+
+#p1 {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+}
+#p1 article {
+    display: block;
+}
+#p1 figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+#p1 figure {
+    height: 100%;
+}
+#p1 figure img {
+    max-height: 100%;
+    max-width: 200px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+
+
+.itemCard {
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+figure {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+.required{
+    color: red;
+}
+
