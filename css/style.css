@@ -1,8 +1,9 @@
-html {
+html{
     font-family: "courier new";
-    margin: 50px;
+    font-size: calc(13px + 0.4vw);
+    scroll-behavior: smooth;
+    font-size: clamp(12px, 3vw, 16px)
 }
-
 #polyhedralDiceSalesMan{
     font-size:.65em;
     color: black;
@@ -12,46 +13,9 @@ html {
     font-style: italic;
 }
 
-#navFlex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: stretch;
-}
-
-#navFlex a {
-    display: flex;
-    background-color: rgb(70, 70, 70);
-    border-color: white;
-    border-style: solid;
-    width: 20%;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    text-decoration: none;
-    padding: 1em 1em;
-}
-
 figcaption {
     margin-top: 5px;
     font-style: italic;
-}
-
-#logoBanner {
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
-
-#logoFigure{
-    width: 90vw;
-    align-self: center;
 }
 
 #navFlex a.current {
@@ -72,27 +36,60 @@ article:first-letter{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 30px;
-}
-
-article {
-    font-size: 20px;
+    font-size: 2em;
 }
 
 body {
     background-color: rgb(254, 218, 180);
 }
 
-footer img {
-    align-items: right;
-}
-
 footer {
     background-color: rgb(70, 70, 70);
     text-align: center;
     color: white;
+}
+
+.arial{
+    font-family: "arial";
+    text-align: center;
+}
+
+.itemCard {
+    width: 300px;
+    height: auto;
+}
+.required{
+    color: red;
+}
+
+table.equipmentTable{
+    margin: 4em;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: .5em;
+    align-content: center;
+}
+
+ table.equipmentTable th, table.equipmentTable td {
+    padding: .5em;
+    border-style:solid;
+    border-color: black;
+}
+table.equipmentTable th:nth-child(odd), table.equipmentTable td:nth-child(odd){
+    background-color: rgb(134, 110, 83);
+    color: white;
+}
+
+table.equipmentTable th {
+    font-size: 1em;
+}
+
+table.equipmentTable th.TitleOfTable{
+    background-color: rgb(254, 218, 180);
+    color: black;
+    font-size: 2em;
 }

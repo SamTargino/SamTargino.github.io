@@ -1,0 +1,112 @@
+
+.container {
+    display:flex;
+    flex-direction: column;
+}
+#navFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+#navFlex a {
+    display: inline-flex;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.9em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoBanner {
+    width: 100%;
+    height: auto;
+}
+
+#logoFigure {
+    display: block;       
+    width: 100%;          
+    margin: 0 auto;       
+    box-sizing: border-box;
+}
+
+footer img {        
+    align-items: right;
+    
+}
+
+#p1 {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+}
+#p1 article {
+    display: block;
+}
+#p1 figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+#p1 figure {
+    height: 100%;
+}
+#p1 figure img {
+    max-height: 100%;
+    max-width: 200px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+figure {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 1em auto;
+}
+
+.equipmentTable {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+}
