@@ -1,5 +1,5 @@
 html{
-    font-family: "courier new";
+    font-family: "courier new", "times new roman", serif;
     font-size: calc(13px + 0.4vw);
     scroll-behavior: smooth;
     font-size: clamp(12px, 3vw, 16px)

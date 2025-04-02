@@ -1,4 +1,8 @@
 
+html {
+    margin-left: 2em;
+    margin-right: 2em;
+}
 .container {
     display: flex;
     flex-direction: column;
