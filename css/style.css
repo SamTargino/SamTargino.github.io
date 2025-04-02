@@ -54,7 +54,7 @@ footer {
 }
 
 .arial{
-    font-family: "arial";
+    font-family: "arial", helvetica, sans-serif;
     text-align: center;
 }
 
