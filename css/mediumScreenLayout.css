@@ -1,11 +1,15 @@
 html {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: auto;
 }
+
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: stretch;
 }
+
 #navFlex {
     display: flex;
     flex-direction: row;
@@ -33,12 +37,13 @@ html {
     align-items: center;
 }
 
-#logoFigure{
+#logoFigure {
     width: 90vw;
     align-self: center;
-    }
+    justify-self: center;
+}
 
-footer img {        
+footer img {
     align-items: right;
 }
 
@@ -46,7 +51,8 @@ footer img {
     display: flex;
     flex-direction: row;
 }
-#p2 figure img{
+
+#p2 figure img {
     max-width: 230px;
     height: auto;
 }
@@ -56,9 +62,11 @@ footer img {
     align-items: stretch;
     gap: 1rem;
 }
+
 #p1 article {
     display: block;
 }
+
 #p1 figure {
     margin: 0;
     display: flex;
@@ -66,9 +74,11 @@ footer img {
     justify-content: space-between;
     height: 100%;
 }
+
 #p1 figure {
     height: 100%;
 }
+
 #p1 figure img {
     height: 370px;
     width: auto;
@@ -86,4 +96,5 @@ footer img {
     width: max-content;
     min-width: 100%;
     border-collapse: collapse;
+    justify-self: center;
 }
